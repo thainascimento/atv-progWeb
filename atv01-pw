@@ -1,0 +1,24 @@
+1. Descreva as motivações para o desenvolvimento de aplicações baseadas em internet
+As principais motivações para o desenvolvimento de aplicações baseadas na internet estão relacionadas à necessidade de acesso remoto, integração e facilidade de manutenção dos sistemas.
+
+Aplicações web permitem acesso global por meio de navegadores, sem necessidade de instalação local. As atualizações são feitas diretamente no servidor, garantindo que todos os usuários utilizem a mesma versão do sistema.
+
+Além disso, possibilitam integração com bancos de dados e outros sistemas, reduzem custos de distribuição e manutenção, permitem escalabilidade conforme o crescimento da demanda e oferecem acesso multiplataforma, podendo ser utilizadas em computadores e dispositivos móveis.
+
+2. Quais as funções de um servidor de aplicação?
+O servidor de aplicação é responsável por processar as requisições enviadas pelo navegador e gerar as respostas adequadas ao usuário.
+
+Entre suas principais funções estão:
+-Processar requisições (request) e enviar respostas (response)
+-Executar regras de negócio da aplicação
+-Gerenciar sessões e cookies
+-Realizar conexão e manipulação de banco de dados
+-Controlar autenticação e segurança
+-Publicar e manter aplicações em funcionamento (deploy)
+
+Ele atua como intermediário entre o cliente (navegador) e os recursos do sistema, como banco de dados e serviços externos.
+
+3. Quais as diferenças das camadas de frontend e backend?
+Frontend é a camada responsável pela interface visual da aplicação, executada no navegador do usuário. É desenvolvida com tecnologias como HTML, CSS e JavaScript. Suas funções incluem a construção do layout, interação com o usuário, validação de formulários e exibição de informações.
+
+Backend é a camada executada no servidor. É responsável pelo processamento dos dados, aplicação das regras de negócio, gerenciamento de sessões, autenticação, segurança e integração com banco de dados. Também é responsável por gerar conteúdo dinâmico e responder às requisições feitas pelo frontend.

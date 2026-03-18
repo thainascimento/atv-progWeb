@@ -1,0 +1,27 @@
+<h2>Cadastro de Cliente</h2>
+
+<form (ngSubmit)="cadastrar()">
+
+Nome<br>
+<input [(ngModel)]="cliente.nome" name="nome">
+<br><br>
+
+Email<br>
+<input [(ngModel)]="cliente.email" name="email">
+<br><br>
+
+Telefone<br>
+<input [(ngModel)]="cliente.telefone" name="telefone">
+<br><br>
+
+Documento<br>
+<input [(ngModel)]="cliente.documento" name="documento">
+<br><br>
+
+Logradouro<br>
+<input [(ngModel)]="cliente.logradouro" name="logradouro">
+<br><br>
+
+<button type="submit">Cadastrar</button>
+
+</form>
