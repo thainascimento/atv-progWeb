@@ -66,7 +66,7 @@ export class Vitrine {
   },
   {
     "codigo": 7,
-    "nome": "Alicate Universal 8\",
+    "nome": "Alicate Universal 8",
     "descritivo": "Alicate universal em aço carbono com cabo isolado e ergonômico.",
     "valor": 39.90,
     "promo": 32.90,
